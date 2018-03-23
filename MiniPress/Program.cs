@@ -24,6 +24,9 @@ namespace MiniPress
             Console.Write("Input Your Full Name:");
             string name = Console.ReadLine();
 
+            Console.Write("Input Your Nickname:");
+            string nickname = Console.ReadLine();
+
             Console.WriteLine("Input Your Age:");
             int age = Convert.ToInt32(Console.ReadLine());
 
@@ -35,6 +38,12 @@ namespace MiniPress
 
             Console.WriteLine("Input Your Address:");
             string address = Console.ReadLine();
+
+            Console.WriteLine("Input Your Web-Title:");
+            string title = Console.ReadLine();
+
+
+
 
             /*
             Console.WriteLine("Input Gender:");
