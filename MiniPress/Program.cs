@@ -20,15 +20,15 @@ namespace MiniPress
             string title = Console.ReadLine();
             Console.WriteLine("<!DOCTYPE html><html><head><title>{0}</title></head><body><h1>{1}</h1><p>{2}</p></body></html>",title,name,discription);
             */
-            Console.Write("Input Name:");
+            Console.Write("Input Your Full Name:");
             string name = Console.ReadLine();
-            Console.WriteLine(name);
 
-
-
+            Console.WriteLine("Input Your Age:");
+            int age = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Input Gender:");
             string g = Console.ReadLine();
+
             Console.WriteLine("if - Pic naem:");
             string p = Console.ReadLine();
 
